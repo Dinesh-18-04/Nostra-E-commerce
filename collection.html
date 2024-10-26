@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=close" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+        .font-galada {
+            font-family: "Poppins", sans-serif;
+        }
+
+        .scroll-side::-webkit-scrollbar {
+            display: none;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex gap-[90px] px-[20px] md:gap-[180px] bg-[#1d232c] justify-center font-galada items-center p-2" "
+    >
+      <h1 class=" text-white text-[10px] md:text-2xl">
+        Sign Up and <span class="font-bold">GET 20% OFF</span> for your first
+        Order
+        </h1>
+        <span class="material-symbols-outlined text-white md:font-bold cursor-pointer text-xs md:text-2xl ">
+            close
+        </span>
+    </div>
+
+    <div class=" flex justify-between items-center py-5 px-5 md:pr-16 sticky">
+        <h1 class="text-2xl font-bold">Nostra</h1>
+        <ul class="md:flex gap-16 text-lg hidden">
+            <li><a href="">Home</a></li>
+            <li><a href="#new">New Arrival</a></li>
+            <li><a href="#most">Most Wanted</a></li>
+            <li><a href="">Collections</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+        <i class="fa-solid fa-bars font-bold md:hidden"></i>
+    </div>
+
+    <div class="flex">
+        <div class=" border-r-2 border-r-black md:w-[350px]">
+            <div class="ml-5">
+                <h2 class="md:text-4xl font-bold mb-4 mt-10">Occasion</h2>
+                <label class="flex items-center mb-3">
+                    <input type="checkbox" class="form-checkbox md:w-4 md:h-4 mr-3" value="summer">
+                    <span class="md:text-lg">Summer</span>
+                </label>
+                <label class="flex items-center mb-3">
+                    <input type="checkbox" class="form-checkbox md:w-4 md:h-4 mr-3" value="party">
+                    <span class="md:text-lg">Party</span>
+                </label>
+                <label class="flex items-center mb-3">
+                    <input type="checkbox" class="form-checkbox md:w-4 md:h-4 mr-3" value="beach">
+                    <span class="md:text-lg">Beach</span>
+                </label>
+            </div>
+
+            <div class="ml-5">
+                <h2 class="md:text-4xl font-bold mb-4 mt-10">Colors</h2>
+                <label class="flex items-center mb-3">
+                    <input type="checkbox" class="form-checkbox md: md: mr-3" value="Red">
+                    <span class="md:">Red</span>
+                </label>
+                <label class="flex items-center mb-3">
+                    <input type="checkbox" class="form-checkbox md: md: mr-3" value="Blue">
+                    <span class="md:">Blue</span>
+                </label>
+                <label class="flex items-center mb-3">
+                    <input type="checkbox" class="form-checkbox md: md: mr-3" value="white">
+                    <span class="md:">white</span>
+                </label>
+                <label class="flex items-center mb-3">
+                    <input type="checkbox" class="form-checkbox md: md: mr-3" value="Green">
+                    <span class="md:">Green</span>
+                </label>
+                
+            </div>
+
+            <div class="ml-5">
+                <h2 class="md: font-bold mb-4 mt-10">Arrivals</h2>
+                <label class="flex items-center mb-3">
+                    <input type="checkbox" class="form-checkbox md: md: mr-3" value="New">
+                    <span class="md:">New</span>
+                </label>
+                <label class="flex items-center mb-3">
+                    <input type="checkbox" class="form-checkbox md: md: mr-3" value="Old">
+                    <span class="md:">Old</span>
+                </label>                
+            </div>
+
+        </div>
+        <div class="w-[100%] m-5">
+            <div class=" border-[1px] w-[90%] mx-auto md:p-2 p-0.5 rounded-lg border-black relative mb-8">
+                <input type="text" class="w-[100%] focus:outline-none" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass absolute right-3 translate-y-[15%]"></i>
+            </div>
+
+            <div class=" grid grid-cols-3 mx-auto">
+                <div class="md:text-center w-fit space-y-1">
+                    <img src="./Assets/coll1.jpeg" class="md:w-[300px] w-[80px] shadow-md" alt="">
+                    <h1 class="md:text-3xl text-[10px] font-bold">Denim Shirt</h1>
+                    <p class="md:text-xl text-[10px]">₹300</p>
+                    <tags style="visibility: hidden;">new,blue,party</tags>
+                </div>
+                <div class="md:text-center w-fit space-y-1">
+                    <img src="./Assets/coll2.jpeg" class="md:w-[300px] w-[80px] shadow-md" alt="">
+                    <h1 class="md:text-3xl text-[10px] font-bold">The Luxe Polo</h1>
+                    <p class="md:text-xl text-[10px]">₹469</p>
+                    <tags style="visibility: hidden;">old,green,summer</tags>
+                </div>
+                <div class="md:text-center w-fit space-y-1">
+                    <img src="./Assets/coll3.jpeg" class="md:w-[300px] w-[80px] shadow-md" alt="">
+                    <h1 class="md:text-3xl text-[10px] font-bold">Casual Classic</h1>
+                    <p class="md:text-xl text-[10px]">₹459</p>
+                    <tags style="visibility: hidden;">old,white,party</tags>
+                </div>
+                <div class="md:text-center w-fit space-y-1">
+                    <img src="./Assets/coll4.jpeg" class="md:w-[300px] w-[80px] shadow-md" alt="">
+                    <h1 class="md:text-3xl text-[10px] font-bold">The Relaxed Fit</h1>
+                    <p class="md:text-xl text-[10px]">₹560</p>
+                    <tags style="visibility: hidden;">new,red,party</tags>
+                </div>
+                <div class="md:text-center w-fit space-y-1">
+                    <img src="./Assets/coll5.jpeg" class="md:w-[300px] w-[80px] shadow-md" alt="">
+                    <h1 class="md:text-3xl text-[10px] font-bold">Modern Henley</h1>
+                    <p class="md:text-xl text-[10px]">₹499</p>
+                    <tags style="visibility: hidden;">old,green,party</tags>
+                </div>
+                <div class="md:text-center w-fit space-y-1">
+                    <img src="./Assets/coll6.jpeg" class="md:w-[300px] w-[80px] shadow-md" alt="">
+                    <h1 class="md:text-3xl font-bold text-[10px]">Vintage Vibes</h1>
+                    <p class="md:text-xl text-[10px]">₹699</p>
+                    <tags style="visibility: hidden;">new,blue,party</tags>
+                </div>
+                <div class="md:text-center w-fit space-y-1">
+                    <img src="./Assets/coll7.jpeg" class="md:w-[300px] w-[80px] shadow-md" alt="">
+                    <h1 class="md:text-3xl text-[10px] font-bold">Coastal Comfort</h1>
+                    <p class="md:text-xl text-[10px]">₹300</p>
+                    <tags style="visibility: hidden;">old,white,beach</tags>
+                </div>
+                <div class="md:text-center w-fit space-y-1">
+                    <img src="./Assets/coll8.jpeg" class="md:w-[300px] w-[80px] shadow-md" alt="">
+                    <h1 class="md:text-3xl font-bold text-[10px]">Sundown Shirt</h1>
+                    <p class="md:text-xl text-[10px]">₹599</p>
+                    <tags style="visibility: hidden;">new,white,summer</tags>
+                </div>
+                <div class="md:text-center w-fit space-y-1">
+                    <img src="./Assets/coll9.jpeg" class="md:w-[300px] w-[80px] shadow-md" alt="">
+                    <h1 class="md:text-3xl font-bold text-[10px]">Purely Plaid</h1>
+                    <p class="md:text-xl text-[10px]">₹590</p>
+                    <tags style="visibility: hidden;">new,red,beach</tags>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-10 md:mt-20 space-y-2 md:space-y-4 flex flex-col justify-center items-center">
+        <h1 class="font-extrabold md:text-4xl">Join our News Letter</h1>
+        <h2 class="font-semibold max-md:text-[10px]">Signup for our email newspaper to get exclusive discounts, updates, and more</h2>
+        <input type="text" class="border-black border-2 md:p-2 w-[80%]">
+        <button class="bg-black text-white font-bold md:px-3 md:py-2 rounded px-1 py-0.5 text-[10px] md:text-xl">Subscribe</button>
+    </div>
+
+    <div class="bg-[#1d232c] mt-10 md:mt-20 md:p-10 p-5 space-y-3 md:space-y-6">
+        <h1 class="text-3xl md:text-5xl text-white font-bold">Nostra</h1>
+        <p class="md:text-4xl text-white ">The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for
+            those interest</p>
+            <div class=" flex gap-10 md:gap-20 md:pl-10">
+                <a href=""><i class="fa-brands fa-instagram text-white md:text-3xl"></i></a>
+                <a href=""><i class="fa-brands fa-facebook text-white md:text-3xl"></i></a>
+                <a href=""><i class="fa-brands fa-square-twitter text-white md:text-3xl"></i></a>
+            </div>
+        <p class="md:text-4xl text-white ">@ 2023 Nostra.com</p>
+    </div>
+</body>
+
+</html>
