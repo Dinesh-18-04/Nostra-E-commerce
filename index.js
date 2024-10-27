@@ -62,3 +62,4 @@ heartsOut.forEach((heartOut, index) => {
     heartOut.classList.remove("hidden"); // Show empty heart
   });
 });
+
